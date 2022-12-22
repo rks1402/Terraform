@@ -19,7 +19,6 @@ resource "google_storage_bucket" "excel-file-bucket" {
   name          = "excel-file-bucket-007"
   location      = "US"
   force_destroy = true
-
 }
 
 
